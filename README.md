@@ -27,7 +27,7 @@ python create_draw_tree.py
 
 # Example Dataset (CSV Format)
 
-The dataset contains the number of the Example (x1,x2,...,x12) and the conditions (e.g., Alt, Bar,Fri...)
+The dataset contains the number of the Example (x1,x2,...,x12), the conditions (e.g., Alt, Bar,Fri...) and the result (WillWait: yes or no)
 
 - Alternate: whether there is a suitable alternative restaurant nearby.
 - Bar : whether the restaurant has a comfortable bar area to wait in.
