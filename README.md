@@ -12,9 +12,9 @@ A decision tree implementation using the ID3 algorithm to predict whether a pers
 # Installation and Usage
 
 1. Clone the repository
-'''
+'''bash
 git clone https://github.com/MariaAccount/AI-DiningDecision.git
-'''
+
  cd AI-DiningDecision
 
 2. Install dependencies
