@@ -34,7 +34,7 @@ The dataset contains the number of the Example (x1,x2,...,x12), the conditions (
 - Fri/Sat: true on Fridays and Saturdays.
 - Hungry: whether we are hungry.
 - Patrons: how many people are in the restaurant (values are None, Some, and Full).
-- Price: the restaurant’s price range ($, $$, $$$).
+- Price: the restaurant’s price range (\$, \$$, $$$).
 - Raining: whether it is raining outside.
 - Reservation: whether we made a reservation.
 - Type: the kind of restaurant (French, Italian, Thai, or burger).
