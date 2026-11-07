@@ -1,5 +1,7 @@
 # AI-DiningDecision
 
+[![CI](https://github.com/MariaAccount/ID3/actions/workflows/ci.yml/badge.svg)](https://github.com/MariaAccount/ID3/actions/workflows/ci.yml)
+
 A decision tree implementation using the ID3 algorithm to predict whether a person should wait for a table at a restaurant based on various conditions (e.g., hunger, type of restaurant, price, etc.).
 
 # Features

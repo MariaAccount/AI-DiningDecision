@@ -118,5 +118,6 @@ def ID3(examples, target_attribute, attributes, root,branch):
                 ID3(exs.drop(columns = A),target_attribute, attributes.drop(A), Node,vi)                
     return root
 
-#Calls the main function
-main()
+#Calls the main function only when the file is run directly, not when it is imported
+if __name__ == "__main__":
+    main()
