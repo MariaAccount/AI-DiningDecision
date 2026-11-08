@@ -1,6 +1,6 @@
 # AI-DiningDecision
 
-[![CI](https://github.com/MariaAccount/ID3/actions/workflows/ci.yml/badge.svg)](https://github.com/MariaAccount/ID3/actions/workflows/ci.yml)
+[![CI](https://github.com/MariaAccount/AI-DiningDecision/actions/workflows/ci.yml/badge.svg)](https://github.com/MariaAccount/AI-DiningDecision/actions/workflows/ci.yml)
 
 A decision tree implementation using the ID3 algorithm to predict whether a person should wait for a table at a restaurant based on various conditions (e.g., hunger, type of restaurant, price, etc.).
 
@@ -20,6 +20,12 @@ git clone https://github.com/MariaAccount/AI-DiningDecision.git
 cd AI-DiningDecision
 ```
 2. Install dependencies
+
+`pygraphviz` needs the Graphviz system libraries, so install them first (Ubuntu/Debian):
+```bash
+sudo apt-get install graphviz libgraphviz-dev pkg-config
+```
+Then install the Python packages:
 ```bash
 pip install -r requirements.txt
 ````
@@ -64,6 +70,7 @@ pytest unit_tests.py
  - Python
  - Pandas (Data Handling)
  - Graphviz (Visualization)
+ - GitHub Actions (CI: runs the unit tests on every push)
 
 # Author
 
