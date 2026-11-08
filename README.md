@@ -74,6 +74,6 @@ pytest unit_tests.py
 
 # Author
 
-Maria Coelho
+Maria Bras
 
 
